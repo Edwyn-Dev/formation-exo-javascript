@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Italic.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: "Arvo";
+    background-color: #f8f8f8;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    background-color: #d16e6e;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+header h1 {
+    color: #fff;
+    font-family: "Arvo";
+    margin: 0;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid #d16e6e;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+#container-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#countdown_title {
+    background-color: #fff;
+    color: #d16e6e;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#countdown_list {
+    padding-top: 10px;
+}
+
+#countdown {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px solid #d16e6e;
+    background-color: #d16e6e;
+    color: #fff;
+}
+
+#countdown h2 {
+    margin: 0;
+}
+
+#countdown-area {
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px solid #d16e6e;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    min-height: 50px;
+    color: #d16e6e;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form label {
+    margin: 10px 0;
+}
+
+form input[type="number"] {
+    color: #d16e6e;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #d16e6e;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d16e6e;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #753434;
+}

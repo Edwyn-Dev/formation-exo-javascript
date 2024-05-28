@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>TP - COUNTDOWN</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Voici un compte à rebours !">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>TP - COUNTDOWN</h1>
+        </header>
+
+        <section id="main-container">
+            <div id="container-number">
+                <div id="countdown">
+                    <h2 id="countdown_title">Compte à rebours : </h2>
+                    <div id="countdown-area">
+                        <h2>...</h2>
+                    </div>
+                </div>
+            </div>
+            <form id="countdown-form">
+                <label for="heure"><input type="number" id="heure" name="heure" min="0" placeholder="Heure" /></label>
+                <label for="minute"><input type="number" id="minute" name="minute" min="0" max="59"
+                        placeholder="Minute" /></label>
+                <label for="seconde"><input type="number" id="seconde" name="seconde" min="0" max="59"
+                        placeholder="Seconde" /></label>
+            </form>
+            <button type="submit" id="submit">Lancer</button>
+            <div id="control-buttons">
+                <button id="pause">Pause</button>
+                <button id="resume">Reprendre</button>
+                <button id="reset">Réinitialiser</button>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Italic.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: "Arvo";
+    background-color: #f8f8f8;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    background-color: #985994;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+header h1 {
+    color: #fff;
+    font-family: "Arvo";
+    margin: 0;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid #985994;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+#container-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#nombre_proposer_title {
+    background-color: #fff;
+    color: #753474;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#nombre_proposer_list {
+    color: #fff;
+    padding-top: 10px;
+}
+
+#nombre_proposer {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px solid #985994;
+    background-color: #985994;
+    color: #fff;
+}
+
+#nombre_proposer h2 {
+    margin: 0;
+}
+
+#nombre_devinette {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px solid #985994;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    min-height: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form label {
+    margin: 10px 0;
+}
+
+form input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #985994;
+    font-size: 16px;
+    text-align: center;
+}
+
+form button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #985994;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button#retry {
+    background-color: #ffa500;
+}
+
+form button:hover {
+    background-color: #753474;
+}
+
+form button#retry:hover {
+    background-color: #cc8400;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>PROJET JEU DU HASARD</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/Corps humain.png">
+    <meta charset="UTF-8">
+    <meta name="description" content="Découvrez le nombre caché !">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>PROJET JEU DU HASARD</h1>
+        </header>
+
+        <section id="main-container">
+            <div id="container-number">
+                <div id="nombre_proposer">
+                    <h2 id="nombre_proposer_title">Nombres proposés : </h2>
+                    <h2 id="nombre_proposer_list"></h2>
+                </div>
+                <div id="nombre_devinette"></div>
+            </div>
+            <form id="guess-form">
+                <label for="nombre"><input type="number" id="nombre" name="nombre" min="1" max="100" required /></label>
+                <button type="submit" id="submit">Deviner</button>
+                <button type="button" id="retry" style="display: none;">Nouvelle Partie</button>
+            </form>
+        </section>
+    </main>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
